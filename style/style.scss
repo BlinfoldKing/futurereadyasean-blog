@@ -1,0 +1,19 @@
+@import '../node_modules/bulma/bulma.sass';
+
+$primary: #5A2D8F;
+$accent: #82BD09;
+$semantic: #1A051D;
+$neutral-1: #3F3356;
+$neutral-2: #D0C9D6;
+$neutral-3: #ECEBED;
+$neutral-4: #F7F5F9;
+$neutral-5: #FFFFFF;
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.columns {
+    margin-top: 0;
+}

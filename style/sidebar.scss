@@ -1,0 +1,26 @@
+@import './style.scss';
+
+.sidebar {
+    padding: 15px;
+    height: 100vh;
+    background: #F2F2F2;
+
+    .logo {
+        margin: 50px;
+    }
+
+    .menu-list {
+        width: 70%;
+        margin: auto;
+        li.selected {
+            background: $primary;
+            a {
+                color: white;
+            }
+
+            a:hover {
+                background: none;
+            }
+        }
+    }
+}
