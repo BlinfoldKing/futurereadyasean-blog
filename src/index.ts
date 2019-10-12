@@ -1,1 +1,1 @@
-alert("hello world")
+navigateTo("home")

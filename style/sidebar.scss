@@ -12,8 +12,10 @@
     .menu-list {
         width: 70%;
         margin: auto;
+
         li.selected {
             background: $primary;
+
             a {
                 color: white;
             }

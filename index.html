@@ -8,7 +8,8 @@
     <title>HelloWorld</title>
     <link rel="stylesheet" href="./build/style.css">
     <link rel="stylesheet" href="./build/sidebar.css">
-    <link rel="stylesheet" href="./build/home.css">
+    <link rel="stylesheet" href="./build/content.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
 </head>
 
 <body>
@@ -19,14 +20,16 @@
             </div>
 
             <ul class="menu-list">
-                <li class="selected"><a>Dashboard</a></li>
-                <li><a>Customers</a></li>
+                <li class="selected"><a onclick="navigateTo('home')">Home</a></li>
+                <li><a onclick="navigateTo('nothome')">Customers</a></li>
             </ul>
         </nav>
-        <div class="blog-content">
-
+        <div class="blog-content container">
+            <div id="content"></div>
         </div>
     </div>
+
+    <script src="./build/build.js"></script>
 </body>
 
 </html>

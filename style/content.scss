@@ -1,0 +1,30 @@
+@import './style.scss';
+
+.blog-content {
+    height: 100vh;
+    overflow-y: scroll;
+
+    #content {
+        padding: 50px;
+
+        h1 {
+            @extend .title;
+            @extend .is-1;
+        }
+
+        h2 {
+            @extend .title;
+            @extend .is-2;
+        }
+
+        h3 {
+            @extend .title;
+            @extend .is-3;
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+    }
+
+}
