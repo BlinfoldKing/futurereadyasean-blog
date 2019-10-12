@@ -4,8 +4,16 @@
   "description": "Blog about agriculture awareness, made for futurereadyasean",
   "main": "index.js",
   "scripts": {
+    "start": "concurrently \"browser-sync start --server -w\" \" tsc --watch\" \"sass --watch style/:build/ --style compressed\"",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "blinfoldking",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "concurrently": "^5.0.0",
+    "sass": "^1.23.0",
+    "typescript": "^3.6.4"
+  }
 }
