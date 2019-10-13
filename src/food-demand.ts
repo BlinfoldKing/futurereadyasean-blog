@@ -10,8 +10,8 @@ Over the last century, the global population has quadrupled. In 1915, there were
     },
 
     injectBottom: () => { },
-    nextRoute: "food-supply",
-    nextTitle: "Food Demand",
+    nextRoute: "green-revolution",
+    nextTitle: "Green Revolution",
 
 
     extraContent: "Food demand is expected to increase anywhere between 59% to 98% by 2050. This will shape agricultural markets in ways we have not seen before. Farmers worldwide will need to increase crop production, either by increasing the amount of agricultural land to grow crops or by enhancing productivity on existing agricultural lands through fertilizer and irrigation and adopting new methods like precision farming.",
