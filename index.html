@@ -8,7 +8,9 @@
     <title>HelloWorld</title>
     <link rel="stylesheet" href="./build/style.css">
     <link rel="stylesheet" href="./build/sidebar.css">
+    <link rel="stylesheet" href="./build/about.css">
     <link rel="stylesheet" href="./build/content.css">
+    <link rel="stylesheet" href="./build/welcome.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
 </head>
 
@@ -16,26 +18,61 @@
     <div class="columns">
         <nav class="sidebar column is-3">
             <div class="logo">
-                <h1 class="title is-5">Hello World</h1>
+                <a href="index.html">
+                    <img src="./assets/images/fra-logo.png" alt="Future Ready Asean" width="264px">
+                </a>
+                <div class=" agriculture-logo">
+                    <img src="./assets/images/agriculture.png" alt="agriculture-logo" width="31px">
+                    <span>
+                        Agriculture
+                    </span>
+                </div>
             </div>
 
             <ul class="menu-list">
                 <li class="nav-item selected" id="home"><a onclick="navigateTo('home')">Welcome</a></li>
-                <li class="nav-item" id="food-supply"><a onclick="navigateTo('food-supply')">Fullfill Food Supply</a>
+                <li class="nav-item" id="food-demand"><a onclick="navigateTo('food-demand')">Food Demand</a>
                 <li class="nav-item" id="green-revolution"><a onclick="navigateTo('green-revolution')">Green
                         Revolution</a></li>
                 <li class="nav-item" id="unsustainability-problem"><a
-                        onclick="navigateTo('unsustainability-problem')">Problem with
-                        Unsustainability</a>
-                <li class="nav-item" id="agriculture-system"><a
-                        onclick="navigateTo('agriculture-system')">Sustainability
-                        Agriculture
-                        System</a>
-                <li class="nav-item" id="food-supply"><a onclick="navigateTo('food-supply')">Fullfill Food Supply</a>
+                        onclick="navigateTo('unsustainability-problem')">Sustainable Intensification Agriculture</a>
+                <li class="nav-item" id="agriculture-system"><a onclick="navigateTo('agriculture-system')">Key Action
+                        for ASEAN</a></li>
+                <div class="line-section">
+                    <img src="./assets/images/Linetab.svg" alt="">
+                </div>
+                <li class="nav-item">
+                    <span class="small" style="font-size: 10px; padding: .5em .75em">
+                        Made with ❤️ by<a a onclick="navigateTo('about')" style="display: inline; padding: 0;"><strong>
+                                Proclub Team </strong></a>
+                    </span>
+                </li>
             </ul>
         </nav>
+
         <div class="blog-content container">
+            <div id="header"></div>
             <div id="content"></div>
+            <div id="bottom"></div>
+            <div id="extra"></div>
+            <div class="next-section" id="next"></div>
+            <div class="line-section">
+                <img src="./assets/images/LineSection.svg" alt="">
+            </div>
+            <div class="blog-footer">
+                This website was created for competition Future Ready ASEAN by
+                <div class="columns">
+                    <div class="column">
+                        <img src="./assets/images/Logo-ASEAN-1 1.png" alt="ASEAN logo">
+                    </div>
+                    <div class="column">
+                        <img class="ms" src="./assets/images/microsoft_1515534252 1.png" alt="Microsoft logo">
+                    </div>
+                    <div class="column">
+                        <img src="./assets/images/logo-EmpireCode-1 1.png" alt="Microsoft logo">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

@@ -7,6 +7,19 @@
 
     .logo {
         margin: 50px;
+
+        .agriculture-logo {
+            color: $accent;
+
+            img {
+                position: absolute;
+            }
+
+            span {
+                margin-left: 38px;
+                vertical-align: middle;
+            }
+        }
     }
 
     .menu-list {
@@ -16,7 +29,7 @@
         li.selected {
             a {
                 color: white;
-                background-image: url(../assets/images/brush-stroke-banner-7-onlygfx-dot-com.svg);
+                background-image: url(../assets/images/rectbrush.svg);
                 background-repeat: no-repeat;
                 width: fit-content;
                 background-position-y: 50%;

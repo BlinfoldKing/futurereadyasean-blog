@@ -1,13 +1,26 @@
-let home = `
-# Hello World
-fljnelsjf
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae fringilla nisl, at feugiat lectus. Praesent congue lobortis orci, id condimentum urna lacinia id. Maecenas facilisis maximus tincidunt. Praesent fermentum ac purus tincidunt malesuada. Duis cursus lorem id nibh dapibus, vitae interdum eros ultrices. Quisque quis iaculis magna. Aenean vel interdum dolor, eu placerat risus. Morbi faucibus lectus leo.
+let home = {
+    content: `
+# Food Security depends on *how we treat our planet.*
+> Climate change presents a critical challenge for food security. The UN Food and Agriculture Organisation (FAO) estimates that farmers will have to produce 70% more food by 2050 to meet the needs of the world's expected 9-billion-strong population. Intensification came as a solution since the Green Revolution declared to fulfill food supply but poor farming practices had contributed to a decrease in productivity of the world's farmland, entail high inputs of synthetic chemical fertilizers, pesticides, tillage, and irrigation that have profound environmental impacts, and which can potentially undermine future food production and also the ecosystem.
+`,
 
-Phasellus erat felis, auctor quis feugiat et, rutrum sed dolor. Aliquam semper felis id erat semper, a feugiat magna accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur pretium mauris et sapien maximus pharetra at ac augue. Nunc efficitur, sapien a elementum facilisis, dui ex luctus erat, vitae feugiat urna massa ut purus. Cras congue, ante sed dignissim rhoncus, velit dui scelerisque nunc, vitae bibendum mi eros vitae dolor. Nunc suscipit quam ligula, quis placerat felis mollis at. Quisque luctus lacus ut enim efficitur, non porttitor nulla tincidunt. Nullam dignissim justo eu enim mollis sollicitudin.
+    injectHeader: () => {
+        document.getElementById('header').innerHTML = `
+            <div id="welcome-image">
+                <img width="220px" src="./assets/images/defika-hendri-U26a-1QEmnA-unsplash 1.svg" alt="ASEAN logo">
+                <img width="320px" src="./assets/images/eduardo-prim-3u51-uLQICc-unsplash 1.svg" alt="ASEAN logo">
+                <img width="250px" src="./assets/images/bbh-singapore-d2hs0gRFCpQ-unsplash 1.svg" alt="ASEAN logo">
+                <img width="230px" src="./assets/images/nandhu-kumar-5NGTf4oD8RA-unsplash 1.svg" alt="ASEAN logo">
+            </div> 
+        `
+    },
 
-Nulla nec ipsum eleifend, tempor nibh quis, sodales magna. Morbi ullamcorper, nunc eu eleifend rutrum, velit dolor dapibus dui, feugiat maximus orci risus vitae sapien. Sed volutpat erat vel mi facilisis vestibulum. Duis nec leo iaculis, condimentum ex at, tempus massa. Nam nec aliquam orci, id viverra nibh. Phasellus pellentesque a ante in ultrices. Vestibulum eu ornare orci. Maecenas vestibulum sem non arcu finibus sodales. In nec velit vel sapien varius tempus at non mi. Vestibulum eu suscipit metus. Nulla facilisi. In eleifend, lacus pulvinar laoreet hendrerit, mauris ante pulvinar orci, quis lobortis enim ex vitae diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin lacinia ornare erat at elementum. Phasellus pulvinar ligula in turpis vulputate, vel viverra est vulputate.
+    injectBottom: () => { },
+    nextRoute: "food-supply",
+    nextTitle: "Food Demand",
 
-Duis sed posuere purus. Fusce ullamcorper arcu a nulla hendrerit tristique. In hac habitasse platea dictumst. Suspendisse a neque auctor, mollis purus sed, dapibus neque. Proin ac venenatis risus, at varius felis. Vestibulum suscipit augue eu odio sagittis tincidunt. Donec posuere diam sed tellus facilisis vestibulum. Praesent vulputate dignissim eros nec placerat. Aenean fringilla nisi ac nulla tempus, sit amet suscipit ipsum tincidunt. Nullam ex leo, molestie sit amet lacus sed, cursus rhoncus lorem. Vivamus eget est nulla. Nam ac lectus maximus, dictum quam vel, rhoncus massa. Cras vel elit sapien.
 
-Curabitur mattis ullamcorper dolor a maximus. Sed tempus neque tortor, quis lacinia ex interdum vitae. Duis viverra quis arcu nec imperdiet. Nulla lacinia consequat diam in accumsan. Nullam accumsan lacus erat, sed vehicula tortor posuere sit amet. Fusce erat dui, posuere vel vulputate congue, accumsan vel nunc. Vivamus ac lectus vel ante consequat interdum.
-`
+    extraContent: "Sustainability Intensification has been suggested by some as one contribution to reconciling the need for more environmentally benign agriculture while advancing global food security. It denotes the linked goals of maintaining or increasing the productivity of existing farmland while reducing the environmental impacts of agriculture. Integration with ASEAN Multi-Sectoral Framework on Climate Change: Agriculture and Forestry towards Food Security (AFCC) will be the best scale and feasible implementation to tackle a problem about food security.",
+    extraIcon: "./assets/images/correct-symbol.svg",
+
+}

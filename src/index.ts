@@ -1,1 +1,1 @@
-navigateTo("home")
+navigateTo("about")

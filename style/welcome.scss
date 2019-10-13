@@ -1,0 +1,32 @@
+#welcome-image {
+
+    img {
+        &:nth-child(1) {
+            transform: translateY(-70px) translateX(-50px);
+        }
+
+        &:nth-child(2) {
+            transform: translateY(10px) translateX(19%);
+        }
+
+        &:nth-child(3) {
+            transform: translateY(-60px) translateX(300px);
+            z-index: 1;
+        }
+
+        &:nth-child(4) {
+            transform: translateY(-70px) translateX(500px);
+        }
+
+        position: absolute;
+    }
+
+    color: white;
+    background-image: url(../assets/images/Rectangle3.svg);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: cover;
+    height: 184px;
+    width: 717px;
+    margin: 100px auto;
+}

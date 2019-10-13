@@ -1,0 +1,30 @@
+#about-image {
+    margin-top: 100px;
+    background-image: url(../assets/images/Rectangle3.svg);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: cover;
+    height: 184px;
+    width: 500px;
+    margin: 100px auto;
+
+    .columns {
+        text-align: center;
+    }
+
+    div {
+
+        img {
+            margin-top: -100px;
+
+            &:nth-child(2) {
+                margin-left: -130px;
+            }
+
+            &:nth-child(3) {
+                margin-left: -200px;
+            }
+        }
+    }
+
+}
