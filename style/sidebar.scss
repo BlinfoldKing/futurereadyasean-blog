@@ -14,15 +14,75 @@
         margin: auto;
 
         li.selected {
-            background: $primary;
-
             a {
                 color: white;
+                background-image: url(../assets/images/brush-stroke-banner-7-onlygfx-dot-com.svg);
+                background-repeat: no-repeat;
+                width: fit-content;
+                background-position-y: 50%;
+                background-size: 100% 100%;
             }
+        }
 
-            a:hover {
+        li {
+            a {
                 background: none;
             }
         }
     }
+}
+
+@supports (-ms-ime-align:auto) {
+    .sidebar {
+        .menu-list {
+            li.selected {
+                a {
+                    color: white;
+                    background-repeat: no-repeat;
+                    background-image: url(../assets/images/brush-stroke-banner-7-onlygfx-dot-com.svg);
+                    background-position-y: 50%;
+                    width: fit-content;
+                    background-size: 75% 100%;
+                }
+            }
+        }
+    }
+
+}
+
+@-moz-document url-prefix() {
+    .sidebar {
+        .menu-list {
+            li.selected {
+                a {
+                    color: white;
+                    background-repeat: no-repeat;
+                    background-image: url(../assets/images/brush-stroke-banner-7-onlygfx-dot-com.svg);
+                    background-position-y: 50%;
+                    width: fit-content;
+                    background-size: 75% 100%;
+                }
+            }
+        }
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) {
+
+    // @media {
+    .sidebar {
+        .menu-list {
+            li.selected {
+                a {
+                    color: white;
+                    background: $primary;
+                    padding: 1px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+
+
+    // }
 }
