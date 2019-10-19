@@ -12,15 +12,20 @@
     <link rel="stylesheet" href="./build/about.css">
     <link rel="stylesheet" href="./build/content.css">
     <link rel="stylesheet" href="./build/welcome.css">
+    <link rel="stylesheet" href="./build/loading.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jump.js/1.0.2/jump.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
-    <div id="top"></div>
+    <div id="loading">
+        <span>
+            <img src="./assets/images/fra-logo.png" alt="Future Ready Asean" width="264px">
+        </span>
+    </div>
     <div class="columns">
-        <nav class="sidebar column is-3">
+        <nav class="sidebar animate column is-3">
             <div class="logo">
                 <a href="index.html">
                     <img src="./assets/images/fra-logo.png" alt="Future Ready Asean" width="264px">
@@ -60,7 +65,7 @@
             </ul>
         </nav>
 
-        <div id="main-container" class="blog-content container">
+        <div id="main-container" class="blog-content container" style="z-index: 1;">
             <div id="header"></div>
             <div id="content"></div>
             <div id="bottom"></div>
@@ -79,7 +84,7 @@
                         <img class="ms" src="./assets/images/microsoft_1515534252 1.png" alt="Microsoft logo">
                     </div>
                     <div class="column">
-                        <img src="./assets/images/logo-EmpireCode-1 1.png" alt="Microsoft logo">
+                        <img src="./assets/images/logo-EmpireCode-1 1.png" alt="EmpireCode logo" style="height:60px">
                     </div>
                 </div>
             </div>

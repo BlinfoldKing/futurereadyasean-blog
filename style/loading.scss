@@ -1,0 +1,57 @@
+@import './style.scss';
+
+@keyframes loading {
+    0% {
+        // left: 0;
+        transform: scaleX(0);
+    }
+
+
+    100% {
+        // left: 100%;
+        transform: scaleX(1);
+    }
+}
+
+@keyframes anim2 {
+    0% {
+        // left: 0;
+    }
+
+
+    100% {
+        // left: 100%;
+        transform: translateX(100vw);
+    }
+}
+
+#loading {
+    position: absolute;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    background: #eee;
+    // text-align: center;
+
+    &.green {
+        background: $accent;
+    }
+
+    &.purple {
+        background: $primary;
+    }
+
+    content: '';
+
+    &.animate {
+        transform-origin: 0% 100%;
+        animation: anim2 1000ms;
+        animation-delay: 0, 300ms;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        margin-top: 45vh;
+    }
+}

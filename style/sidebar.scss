@@ -1,6 +1,20 @@
 @import './style.scss';
 
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 .sidebar {
+    &.animate {
+        animation: slide 2000ms;
+    }
+
     padding: 15px;
     height: 100vh;
     background: #F2F2F2;

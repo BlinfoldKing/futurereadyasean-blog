@@ -72,7 +72,7 @@ function navigateTo(article: string) {
 
     let commonRevealOpt: scrollReveal.ScrollRevealObjectOptions = {
         container: '#main-container',
-        reset: true,
+        // reset: true,
     }
 
 
