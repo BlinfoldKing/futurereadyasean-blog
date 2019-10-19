@@ -33,6 +33,35 @@
         margin-bottom: 30px;
         padding-top: 50px;
 
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        em {
+            text-align: center;
+            font-weight: normal;
+            font-style: normal;
+            display: block;
+            margin: auto;
+
+        }
+
+        strong {
+            font-weight: normal;
+            font-style: normal;
+            display: block;
+            margin: auto;
+            // background-image: url(../assets/images/Rectangle8.svg);
+            // background-repeat: no-repeat;
+            // width: fit-content;
+            // background-position-y: 50%;
+            // background-size: 100% 200%;
+
+            border: solid $primary 2px;
+            padding: 20px
+        }
+
         h1 {
             em {
                 display: block;

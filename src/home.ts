@@ -5,18 +5,26 @@ let home = {
 `,
 
     injectHeader: () => {
-        document.getElementById('header').innerHTML = `
+        let header = document.getElementById('header')
+        header.innerHTML = `
             <div id="welcome-image">
-                <img width="220px" src="./assets/images/defika-hendri-U26a-1QEmnA-unsplash 1.svg" alt="ASEAN logo">
-                <img width="320px" src="./assets/images/eduardo-prim-3u51-uLQICc-unsplash 1.svg" alt="ASEAN logo">
-                <img width="250px" src="./assets/images/bbh-singapore-d2hs0gRFCpQ-unsplash 1.svg" alt="ASEAN logo">
-                <img width="230px" src="./assets/images/nandhu-kumar-5NGTf4oD8RA-unsplash 1.svg" alt="ASEAN logo">
+                <img width="400px" src="./assets/images/defika-hendri-U26a-1QEmnA-unsplash-min 1.png" alt="">
+                <img width="320px" src="./assets/images/eduardo-prim-3u51-uLQICc-unsplash 1.png" alt="">
+                <img width="300px" src="./assets/images/bbh-singapore-d2hs0gRFCpQ-unsplash-min 1.png" alt="">
+                <img width="300px" src="./assets/images/nandhu-kumar-5NGTf4oD8RA-unsplash-min 1.png" alt="">
             </div> 
         `
+
+        let images = header.getElementsByTagName('img')
+        for (let i = 0; i < images.length; i++) {
+            images[i].addEventListener('load', () => {
+                // images[i].classList.add('animate')
+            })
+        }
     },
 
     injectBottom: () => { },
-    nextRoute: "food-supply",
+    nextRoute: "food-demand",
     nextTitle: "Food Demand",
 
 

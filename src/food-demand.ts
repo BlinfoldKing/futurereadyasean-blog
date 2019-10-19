@@ -3,7 +3,7 @@ let foodDemand = {
 # Food Demand
 Over the last century, the global population has quadrupled. In 1915, there were 1.8 billion people in the world. Today, according to the most recent estimate by the UN, there are 7.3 billion people — and we may reach 9.7 billion by 2050. This growth, along with rising incomes in developing countries (which cause dietary changes such as eating more protein and meat) are driving up global food demand.
 ### Human Population Growth
-![some text](./assets/images/Graph.svg "Population Growth")
+![Population Growth](./assets/images/Graph.svg "Population Growth")
     `,
 
     injectHeader: () => {

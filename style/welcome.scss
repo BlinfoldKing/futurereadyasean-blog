@@ -1,23 +1,40 @@
 #welcome-image {
 
+    @keyframes pop {
+        0% {
+            transform: scale(0);
+        }
+
+        100% {
+            transform: scale(100%);
+        }
+    }
+
+
     img {
         &:nth-child(1) {
-            transform: translateY(-70px) translateX(-50px);
+            transform: translateY(-70px) translateX(-220px);
         }
 
         &:nth-child(2) {
-            transform: translateY(10px) translateX(19%);
+            transform: translateY(-200px) translateX(19%);
         }
 
         &:nth-child(3) {
-            transform: translateY(-60px) translateX(300px);
+            transform: translateY(-180px) translateX(250px);
             z-index: 1;
         }
 
         &:nth-child(4) {
-            transform: translateY(-70px) translateX(500px);
+            transform: translateY(-170px) translateX(490px);
         }
 
+        &.animate {
+            animation: pop 2s;
+            animation-direction: normal;
+        }
+
+        text-align: center;
         position: absolute;
     }
 

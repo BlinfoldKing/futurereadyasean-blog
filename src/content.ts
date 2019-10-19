@@ -10,6 +10,15 @@ function navigateTo(article: string) {
         case "food-demand":
             route = foodDemand
             break
+        case "green-revolution":
+            route = greenRevolution
+            break
+        case "sustain":
+            route = intensification
+            break
+        case "key-action":
+            route = keyAction
+            break
         default:
             location.href = "/index.html"
             break
@@ -27,7 +36,7 @@ function navigateTo(article: string) {
                 Next Section
                 <div>
                     <h3 class="title is-3">
-                        <a href="" onclick="navigateTo(${route.nextRoute})">${route.nextTitle}</a>
+                        <a target="#top" onclick="navigateTo('${route.nextRoute}')">${route.nextTitle}</a>
                         <div class="line-next">
                             <img src="./assets/images/LineNext.svg" alt="">
                         </div>
@@ -39,11 +48,27 @@ function navigateTo(article: string) {
     let converter = new showdown.Converter(),
         html = converter.makeHtml(route.content)
 
+
+
     select(article)
     document.getElementById('content').innerHTML = html
     route.injectHeader()
     route.injectBottom()
+
     injectChecklist(route)
+    if (article == 'key-action') {
+        document.getElementById('next').innerHTML = `
+            <div style="text-align: left">
+                <h4 class="title is-4">References</h4>
+                hbr.org/2016/04/global-demand-for-food-is-rising-can-we-meet-it <br>
+                foodsource.org.uk/building-blocks/what-sustainable-intensification <br>
+                theguardian.com/environment/2011/nov/28/un-farmers-produce-food-population <br>
+                asean.org/storage/2012/05/ASEAN-Multisectoral-Framework-for-climate-change.pdf <br>
+            </div> 
+        `
+    }
+
+
 }
 
 function select(article: string) {
