@@ -36,18 +36,20 @@ function navigateTo(article: string) {
                 Next Section
                 <div>
                     <h3 class="title is-3">
-                        <a target="#top" onclick="navigateTo('${route.nextRoute}')">${route.nextTitle}</a>
+                        <a target="#top" onclick="navigateTo('${route.nextRoute}'); toTop('main-container')">${route.nextTitle}</a>
                         <div class="line-next">
                             <img src="./assets/images/LineNext.svg" alt="">
                         </div>
                     </h3>
                 </div>
+
         `
     }
 
+
+
     let converter = new showdown.Converter(),
         html = converter.makeHtml(route.content)
-
 
 
     select(article)
