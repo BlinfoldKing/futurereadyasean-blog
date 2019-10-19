@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./build/welcome.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jump.js/1.0.2/jump.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
@@ -33,20 +34,26 @@
             </div>
 
             <ul class="menu-list">
-                <li class="nav-item selected" id="home"><a onclick="navigateTo('home')">Welcome</a></li>
-                <li class="nav-item" id="food-demand"><a onclick="navigateTo('food-demand')">Food Demand</a>
-                <li class="nav-item" id="green-revolution"><a onclick="navigateTo('green-revolution')">Green
+                <li class="nav-item selected" id="home"><a
+                        onclick="navigateTo('home'); toTop('main-container')">Welcome</a></li>
+                <li class="nav-item" id="food-demand"><a
+                        onclick="navigateTo('food-demand'); toTop('main-container')">Food Demand</a>
+                <li class="nav-item" id="green-revolution"><a
+                        onclick="navigateTo('green-revolution'); toTop('main-container')">Green
                         Revolution</a></li>
-                <li class="nav-item" id="sustain"><a onclick="navigateTo('sustain')">Sustainable Intensification
+                <li class="nav-item" id="sustain"><a
+                        onclick="navigateTo('sustain'); toTop('main-container')">Sustainable Intensification
                         Agriculture</a>
-                <li class="nav-item" id="key-action"><a onclick="navigateTo('key-action')">Key Action
+                <li class="nav-item" id="key-action"><a onclick="navigateTo('key-action'); toTop('main-container')">Key
+                        Action
                         for ASEAN</a></li>
                 <div class="line-section">
                     <img src="./assets/images/Linetab.svg" alt="">
                 </div>
                 <li class="nav-item">
                     <span class="small" style="font-size: 10px; padding: .5em .75em">
-                        Made with ❤️ by<a a onclick="navigateTo('about')" style="display: inline; padding: 0;"><strong>
+                        Made with ❤️ by<a a onclick="navigateTo('about'); toTop('main-container')"
+                            style="display: inline; padding: 0;"><strong>
                                 Proclub Team </strong></a>
                     </span>
                 </li>

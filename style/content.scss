@@ -27,7 +27,17 @@
         text-align: center;
     }
 
+    #header {
+        display: hidden;
+    }
+
     #content {
+        * {
+            display: hidden;
+        }
+
+        @keyframes show {}
+
         padding: 200px;
         padding-bottom: 0;
         margin-bottom: 30px;
@@ -63,6 +73,8 @@
         }
 
         h1 {
+            display: hidden;
+
             em {
                 display: block;
                 font-style: normal;

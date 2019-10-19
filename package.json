@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^12.7.12",
+    "@types/scrollreveal": "^0.0.5",
     "@types/showdown": "^1.9.3",
     "browser-sync": "^2.26.7",
     "bulma": "^0.7.5",

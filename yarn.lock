@@ -7,6 +7,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.12.tgz#7c6c571cc2f3f3ac4a59a5f2bd48f5bdbc8653cc"
   integrity sha512-KPYGmfD0/b1eXurQ59fXD1GBzhSQfz6/lKBxkaHX9dKTzjXbK68Zt7yGUxUsCS1jeTy/8aL+d9JEr+S54mpkWQ==
 
+"@types/scrollreveal@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@types/scrollreveal/-/scrollreveal-0.0.5.tgz#1029f16062ed17dd0dbe5d3c4d6c674172397e63"
+  integrity sha512-aNW4FewTz7dttbbPhJYV2hHYOwk0jhnJLPU+Ch7yqzH1kaNnADcixrlr4L2xPbgDqMYdYDgm6etX4LhHVjvxKQ==
+
 "@types/showdown@^1.9.3":
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/@types/showdown/-/showdown-1.9.3.tgz#eaa881b03a32d3720184731754d3025fc450b970"

@@ -70,7 +70,23 @@ function navigateTo(article: string) {
         `
     }
 
+    let commonRevealOpt: scrollReveal.ScrollRevealObjectOptions = {
+        container: '#main-container',
+        reset: true,
+    }
 
+
+    ScrollReveal().reveal('#header', { delay: 200, ...commonRevealOpt });
+    ScrollReveal().reveal('h1', { delay: 300, ...commonRevealOpt });
+    ScrollReveal().reveal('#content img', { delay: 300, ...commonRevealOpt });
+    ScrollReveal().reveal('h3 a', { delay: 200, ...commonRevealOpt });
+    ScrollReveal().reveal('p:nth-child(1)', { delay: 500, ...commonRevealOpt });
+    ScrollReveal().reveal('#content p', { delay: 600, ...commonRevealOpt });
+    ScrollReveal().reveal('#content h3', { delay: 550, ...commonRevealOpt });
+    ScrollReveal().reveal('#bottom', { delay: 800, ...commonRevealOpt });
+    ScrollReveal().reveal('#extra', { delay: 500, ...commonRevealOpt });
+    ScrollReveal().reveal('.next-section', { delay: 200, ...commonRevealOpt });
+    ScrollReveal().reveal('.blog-footer, line-section', { delay: 400, ...commonRevealOpt });
 }
 
 function select(article: string) {
