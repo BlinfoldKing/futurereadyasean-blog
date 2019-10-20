@@ -1,6 +1,6 @@
 function getAssets() {
     return [
-        "Indonesia.svg"
+        "Indonesia.svg",
         "afcc.svg",
         "agriculture.png",
         "bbh.png",
