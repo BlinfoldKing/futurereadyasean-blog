@@ -4,7 +4,7 @@
   "description": "Blog about agriculture awareness, made for futurereadyasean",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"browser-sync start --server -w\" \" tsc --watch\" \"sass --watch style/:build/ --style compressed\"",
+    "start": "concurrently \"browser-sync start --server -w\" \" tsc --watch\" \"sass --watch style/style.scss:build/style.css --style compressed\"",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

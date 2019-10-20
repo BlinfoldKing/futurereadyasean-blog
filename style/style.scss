@@ -51,3 +51,10 @@ h3 {
 .hide {
     display: none;
 }
+
+
+@import './sidebar.scss';
+@import './welcome.scss';
+@import './content.scss';
+@import './about.scss';
+@import './loading.scss';
