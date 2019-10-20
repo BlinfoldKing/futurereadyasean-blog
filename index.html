@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="./assets/images/agriculture.png" rel="icon" type="image/png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Future Ready ASEAN - Agriculture Blog</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jump.js/1.0.2/jump.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <div id="loading">
+        <span>
+            <img src="./assets/images/fra-logo.png" alt="Future Ready Asean" width="300px">
+        </span>
+    </div>
+    <div class="columns">
+        <nav class="sidebar column is-3">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/images/fra-logo.png" alt="Future Ready Asean" width="264px">
+                </a>
+                <div class=" agriculture-logo">
+                    <img src="./assets/images/agriculture.png" alt="agriculture-logo" width="31px">
+                    <span>
+                        Agriculture
+                    </span>
+                </div>
+            </div>
+
+            <ul class="menu-list">
+                <li class="nav-item selected" id="home"><a
+                        onclick="navigateTo('home'); toTop('main-container')">Welcome</a></li>
+                <li class="nav-item" id="food-demand"><a
+                        onclick="navigateTo('food-demand'); toTop('main-container')">Food Demand</a>
+                <li class="nav-item" id="green-revolution"><a
+                        onclick="navigateTo('green-revolution'); toTop('main-container')">Green
+                        Revolution</a></li>
+                <li class="nav-item" id="sustain"><a
+                        onclick="navigateTo('sustain'); toTop('main-container')">Sustainable Intensification
+                        Agriculture</a>
+                <li class="nav-item" id="key-action" style="margin-bottom: 20px;"><a
+                        onclick="navigateTo('key-action'); toTop('main-container')">Key
+                        Action
+                        for ASEAN</a></li>
+                <div class="line-section nav-item" id="line">
+                    <img src="./assets/images/Linetab.svg" alt="">
+                </div>
+                <li class="nav-item proclub" id="about">
+                    <span class="small" style="font-size: 10px; padding: .5em .75em">
+                        Made with ❤️from 🇮🇩 by<a class="roclub" onclick="navigateTo('about'); toTop('main-container')"
+                            style="display: inline; padding: 0;"><strong>
+                                Proclub Team </strong></a>
+                    </span>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="main-container" class="blog-content container" style="z-index: 1;">
+            <div id="header"></div>
+            <div id="content"></div>
+            <div id="bottom"></div>
+            <div id="extra"></div>
+            <div class="next-section" id="next"></div>
+            <div class="line-section">
+                <img src="./assets/images/LineSection.svg" alt="">
+            </div>
+            <div class="blog-footer">
+                This website was created for competition Future Ready ASEAN by
+                <div class="columns">
+                    <div class="column">
+                        <a href="https://aseanfoundation.org/">
+                            <img src="./assets/images/Logo-ASEAN-1 1.png" alt="ASEAN logo" style="height: 40px">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="https://microsoft.com/">
+                            <img class="ms" src="./assets/images/microsoft_1515534252 1.png" alt="Microsoft logo"
+                                style="height: 60px">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.empirecode.co/">
+                            <img src="./assets/images/empirecode.png" alt="EmpireCode logo" style="height:35px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/build.js"></script>
+</body>
+
+</html>
