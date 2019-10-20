@@ -16,4 +16,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: build
-        BUILD_SCRIPT: npm install && npm run-script build && mv assets build/assets && mv template/index.html build/index.html
+        BUILD_SCRIPT: npm install && npm run-script build && mv assets build/assets && mv template/index.html build/index.html && mkdir build/style && mkdir build/js && mv build/style.css build/style/style.css && mv build/build.js build/js/build.js
