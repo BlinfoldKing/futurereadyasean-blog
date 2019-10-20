@@ -66,6 +66,8 @@ function navigateTo(article: string) {
                     hbr.org/2016/04/global-demand-for-food-is-rising-can-we-meet-it</a> <br>
                 <a class="link" href="https://foodsource.org.uk/building-blocks/what-sustainable-intensification">
                 foodsource.org.uk/building-blocks/what-sustainable-intensification</a> <br>
+                <a class="link" href="https://ncbi.nlm.nih.gov/pmc/articles/PMC3411969/ ">
+                foodsource.org.uk/building-blocks/what-sustainable-intensification</a> <br>
                 <a class="link" href="https://theguardian.com/environment/2011/nov/28/un-farmers-produce-food-population">
                 theguardian.com/environment/2011/nov/28/un-farmers-produce-food-population </a><br>
                 <a class="link" href="https://asean.org/storage/2012/05/ASEAN-Multisectoral-Framework-for-climate-change.pdf">
@@ -76,7 +78,7 @@ function navigateTo(article: string) {
 
     if (article == 'about') {
         document.getElementById('next').innerHTML = `
-            <div style="margin:auto; text-align: center">
+            <div style="margin:auto; text-align: center; padding: 0; margin-top: -20px">
                 <img src="./assets/images/TechStack.svg"></img>
             </div>
         `

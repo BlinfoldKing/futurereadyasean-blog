@@ -34,6 +34,10 @@
             display: hidden;
         }
 
+        a {
+            color: $primary;
+        }
+
         @keyframes show {}
 
         padding: 200px;

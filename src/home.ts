@@ -1,17 +1,18 @@
 let home = {
     content: `
 # Food Security depends on *how we treat our planet.*
-> Climate change presents a critical challenge for food security. The UN Food and Agriculture Organisation (FAO) estimates that farmers will have to produce 70% more food by 2050 to meet the needs of the world's expected 9-billion-strong population. Intensification came as a solution since the Green Revolution declared to fulfill food supply but poor farming practices had contributed to a decrease in productivity of the world's farmland, entail high inputs of synthetic chemical fertilizers, pesticides, tillage, and irrigation that have profound environmental impacts, and which can potentially undermine future food production and also the ecosystem.
+> Climate change presents a critical challenge for food security. 
+[The UN Food and Agriculture Organisation (FAO)]( http://www.fao.org/ ) estimates that farmers will have to produce 70% more food by 2050 to meet the needs of the [world's expected 9-billion-strong population]( https://www.theguardian.com/environment/2011/oct/23/child-6bn-population-adnan-nevic). Intensification came as a solution since the Green Revolution declared to fulfill food supply but poor farming practices had contributed to a decrease in productivity of the world's farmland, entail high inputs of synthetic chemical fertilizers, pesticides, tillage, and irrigation that have profound environmental impacts, and which can potentially undermine future food production and also the ecosystem.
 `,
 
     injectHeader: () => {
         let header = document.getElementById('header')
         header.innerHTML = `
             <div id="welcome-image">
-                <img width="400px" src="./assets/images/defika-hendri-U26a-1QEmnA-unsplash-min 1.png" alt="">
-                <img width="320px" src="./assets/images/eduardo-prim-3u51-uLQICc-unsplash 1.png" alt="">
-                <img width="300px" src="./assets/images/bbh-singapore-d2hs0gRFCpQ-unsplash-min 1.png" alt="">
-                <img width="300px" src="./assets/images/nandhu-kumar-5NGTf4oD8RA-unsplash-min 1.png" alt="">
+                <img width="400px" src="./assets/images/defika.png" alt="">
+                <img width="320px" src="./assets/images/eduardo.png" alt="">
+                <img width="300px" src="./assets/images/bbh.png" alt="">
+                <img width="300px" src="./assets/images/nandhu.png" alt="">
             </div> 
         `
 
