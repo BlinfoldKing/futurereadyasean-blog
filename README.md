@@ -1,5 +1,7 @@
 # Future Asean Ready - Agriculture Blog
 
+live preview: [blinfoldking.dev/futurereadyasean-blog](blinfoldking.dev/futurereadyasean-blog)
+
 ## How to run the web
 ### Prerequisite
 * Internet Connection
