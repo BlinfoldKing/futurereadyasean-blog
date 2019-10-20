@@ -1,6 +1,6 @@
 # Future Asean Ready - Agriculture Blog
 
-live preview: [https://blinfoldking.dev/futurereadyasean-blog](blinfoldking.dev/futurereadyasean-blog)
+live preview: [blinfoldking.dev/futurereadyasean-blog](https://blinfoldking.dev/futurereadyasean-blog)
 
 ## How to run the web
 ### Prerequisite
