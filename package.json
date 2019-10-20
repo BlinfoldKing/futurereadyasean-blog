@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"browser-sync start --server -w\" \" tsc --watch\" \"sass --watch style/style.scss:build/style.css --style compressed\"",
-    "build": "tsc",
+    "build": "tsc && sass style/style.scss:build/style.css --style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "blinfoldking",
