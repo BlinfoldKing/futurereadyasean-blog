@@ -62,11 +62,23 @@ function navigateTo(article: string) {
         document.getElementById('next').innerHTML = `
             <div style="text-align: left">
                 <h4 class="title is-4">References</h4>
-                hbr.org/2016/04/global-demand-for-food-is-rising-can-we-meet-it <br>
-                foodsource.org.uk/building-blocks/what-sustainable-intensification <br>
-                theguardian.com/environment/2011/nov/28/un-farmers-produce-food-population <br>
-                asean.org/storage/2012/05/ASEAN-Multisectoral-Framework-for-climate-change.pdf <br>
+                <a class="link" href="https://hbr.org/2016/04/global-demand-for-food-is-rising-can-we-meet-it">
+                    hbr.org/2016/04/global-demand-for-food-is-rising-can-we-meet-it</a> <br>
+                <a class="link" href="https://foodsource.org.uk/building-blocks/what-sustainable-intensification">
+                foodsource.org.uk/building-blocks/what-sustainable-intensification</a> <br>
+                <a class="link" href="https://theguardian.com/environment/2011/nov/28/un-farmers-produce-food-population">
+                theguardian.com/environment/2011/nov/28/un-farmers-produce-food-population </a><br>
+                <a class="link" href="https://asean.org/storage/2012/05/ASEAN-Multisectoral-Framework-for-climate-change.pdf">
+                asean.org/storage/2012/05/ASEAN-Multisectoral-Framework-for-climate-change.pdf </a><br>
             </div> 
+        `
+    }
+
+    if (article == 'about') {
+        document.getElementById('next').innerHTML = `
+            <div style="margin:auto; text-align: center">
+                <img src="./assets/images/TechStack.svg"></img>
+            </div>
         `
     }
 
@@ -87,6 +99,11 @@ function navigateTo(article: string) {
     ScrollReveal().reveal('#extra', { delay: 500, ...commonRevealOpt });
     ScrollReveal().reveal('.next-section', { delay: 200, ...commonRevealOpt });
     ScrollReveal().reveal('.blog-footer, line-section', { delay: 400, ...commonRevealOpt });
+
+    let anchors = document.getElementsByTagName('a')
+    for (let i = 0; i < anchors.length; i++) {
+        anchors[i].target = '_blank'
+    }
 }
 
 function select(article: string) {

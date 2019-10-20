@@ -163,3 +163,17 @@
         margin-bottom: 150px;
     }
 }
+
+.video-frame {
+    div {
+        &:nth-child(1) {
+            background: $primary;
+            padding: 30px;
+        }
+
+        &:nth-child(2) {
+            padding: 30px;
+            border: solid 3px $primary;
+        }
+    }
+}

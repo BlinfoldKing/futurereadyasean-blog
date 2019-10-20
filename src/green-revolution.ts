@@ -11,7 +11,7 @@ government and private institutions, including the Rockefeller Foundation and th
 ![](./assets/images/Line7.svg "Norman Borlaug")
 *Father of Green Revolution*
 
-**The Green Revolution has saved around one billion people from famine with modern agricultural governance strategies relying on the help of irrigation, superior seeds, machinery and chemical fertilizers Farmers in developing countries succeeded in increasing food production from 800 million tons to more than 2.2 billion tons between 1961 and 2000.**
+![](./assets/images/greenRevo.svg "Norman Borlaug")
     `,
 
     injectHeader: () => {

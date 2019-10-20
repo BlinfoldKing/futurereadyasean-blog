@@ -38,8 +38,8 @@
         width: 70%;
         margin: auto;
 
-        li.selected {
-            a {
+        li.selected:not(.proclub) {
+            a:not(.proclub) {
                 color: white;
                 background-image: url(../assets/images/rect2.svg);
                 background-repeat: no-repeat;

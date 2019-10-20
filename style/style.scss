@@ -52,6 +52,11 @@ h3 {
     display: none;
 }
 
+a.link {
+    color: $primary;
+}
+
+
 
 @import './sidebar.scss';
 @import './welcome.scss';

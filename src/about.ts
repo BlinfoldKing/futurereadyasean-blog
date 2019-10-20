@@ -15,21 +15,21 @@ We are a young passionate people who like playing riddle, attending history clas
 
                 <div class="columns is-centered">
                     <div class="column">
-                        <div>Ganesha Danu</div>
+                        <div><a class="link" href="https://www.linkedin.com/in/ganeshad/" target="_blank">Ganesha Danu</a></div>
                         <div>
                             <img src="./assets/images/Line7.svg" alt="">
                         </div>
-                        <div>Member 1 </div>
+                        <div>Developer</div>
                     </div>
                     <div class="column">
-                        <div>Ginanjar Widya</div>
+                        <div><a class="link" href="https://www.linkedin.com/in/ginanjarwidya/" target="_blank">Ginanjar Widya</a></div>
                         <div>
                             <img src="./assets/images/Line7.svg" alt="">
                         </div>
-                        <div> Member 2 </div>
+                        <div>Designer</div>
                     </div>
                     <div class="column">
-                        <div>Hansa Mustada</div>
+                        <div><a class="link" href="https://www.linkedin.com/in/hansa-mustada/" target="_blank">Hansa Mustada</a></div>
                         <div>
                             <img src="./assets/images/Line7.svg" alt="">
                         </div>
@@ -47,7 +47,7 @@ We are a young passionate people who like playing riddle, attending history clas
     nextRoute: "",
     nextTitle: "",
 
-    extraContent: "We made this website fully open soure. You can check our repo to start contribute!",
+    extraContent: `We made this website fully open soure. You can check our <a style="color: white; text-decoration: underline" href="http://github.com/blinfoldking/future-ready-asean"> repo</a> to start contribute!`,
     extraIcon: "./assets/images/github.svg",
 
 }
